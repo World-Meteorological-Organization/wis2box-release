@@ -1,0 +1,45 @@
+services:
+  web-proxy:
+    image: nginx:alpine
+
+  wis2box-ui:
+    image: ghcr.io/wmo-im/wis2box-ui:latest
+
+  wis2box-webapp:
+    image: ghcr.io/wmo-im/wis2box-webapp:latest
+
+  wis2box-api:
+    image: ghcr.io/wmo-im/wis2box-api:latest
+
+  minio:
+    image: minio/minio:RELEASE.2024-08-03T04-33-23Z-cpuv1
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.6.2
+
+  mosquitto:
+    image: ghcr.io/wmo-im/wis2box-broker:latest
+
+  wis2box-management:
+    image: ghcr.io/wmo-im/wis2box-management:latest
+
+  mqtt_metrics_collector:
+    image: ghcr.io/wmo-im/wis2box-mqtt-metrics-collector:latest
+
+  wis2box-auth:
+    image: ghcr.io/wmo-im/wis2box-auth:latest
+
+  wis2downloader:
+    image: ghcr.io/wmo-im/wis2downloader:v0.3.2
+
+  loki:
+    image: grafana/loki:2.4.1
+
+  prometheus:
+    image: prom/prometheus:v2.37.0
+
+  grafana:
+    image: grafana/grafana:9.0.3
+
+  elasticsearch-exporter:
+    image: quay.io/prometheuscommunity/elasticsearch-exporter:latest

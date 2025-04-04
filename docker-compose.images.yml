@@ -9,7 +9,7 @@ services:
     image: ghcr.io/wmo-im/wis2box-webapp:0.3.0
 
   wis2box-api:
-    image: ghcr.io/wmo-im/wis2box-api:1.0.0rc1
+    image: ghcr.io/wmo-im/wis2box-api:latest
 
   minio:
     image: minio/minio:RELEASE.2024-08-03T04-33-23Z-cpuv1

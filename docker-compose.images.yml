@@ -5,13 +5,13 @@ services:
     image: nginx:alpine
 
   wis2box-ui:
-    image: ghcr.io/wmo-im/wis2box-ui:1.0.0
+    image: ghcr.io/world-meteorological-organization/wis2box-ui:1.0.0
 
   wis2box-webapp:
-    image: ghcr.io/wmo-im/wis2box-webapp:1.0.0
+    image: ghcr.io/world-meteorological-organization/wis2box-webapp:1.0.0
 
   wis2box-api:
-    image: ghcr.io/wmo-im/wis2box-api:1.0.0
+    image: ghcr.io/world-meteorological-organization/wis2box-api:1.0.0
 
   minio:
     image: minio/minio:RELEASE.2024-08-03T04-33-23Z-cpuv1
@@ -20,19 +20,19 @@ services:
     image: docker.elastic.co/elasticsearch/elasticsearch:8.6.2
 
   mosquitto:
-    image: ghcr.io/wmo-im/wis2box-broker:1.0.0
+    image: ghcr.io/world-meteorological-organization/wis2box-broker:1.0.0
 
   wis2box-management:
-    image: ghcr.io/wmo-im/wis2box-management:1.0.0
+    image: ghcr.io/world-meteorological-organization/wis2box-management:1.0.0
 
   mqtt_metrics_collector:
-    image: ghcr.io/wmo-im/wis2box-mqtt-metrics-collector:1.0.0
+    image: ghcr.io/world-meteorological-organization/wis2box-mqtt-metrics-collector:1.0.0
 
   wis2box-auth:
-    image: ghcr.io/wmo-im/wis2box-auth:1.0.0
+    image: ghcr.io/world-meteorological-organization/wis2box-auth:1.0.0
 
   wis2downloader:
-    image: ghcr.io/wmo-im/wis2downloader:v0.3.2
+    image: ghcr.io/world-meteorological-organization/wis2downloader:v0.3.2
 
   loki:
     image: grafana/loki:2.4.1

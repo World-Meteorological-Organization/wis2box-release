@@ -32,7 +32,7 @@ services:
     image: ghcr.io/world-meteorological-organization/wis2box-auth:1.0.0
 
   wis2downloader:
-    image: ghcr.io/world-meteorological-organization/wis2downloader:v0.3.2
+    image: ghcr.io/wmo-im/wis2downloader:v0.3.2
 
   loki:
     image: grafana/loki:2.4.1

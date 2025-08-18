@@ -1,6 +1,6 @@
 # wis2box-release
 
-This repository the images version used by the various services that compose a wis2box-release.
+This repository trackes the images version used by the various services that compose a wis2box-release.
 
 The images are tracked within the file `docker-compose.images.yml` that sets the images to be used for each dockerized service within the wis2box-stack.
 

@@ -11,7 +11,7 @@ services:
     image: ghcr.io/world-meteorological-organization/wis2box-webapp:1.3.0
 
   wis2box-api:
-    image: ghcr.io/world-meteorological-organization/wis2box-api:1.3.0
+    image: ghcr.io/world-meteorological-organization/wis2box-api:latest
 
   minio:
     image: ghcr.io/world-meteorological-organization/wis2box-minio:latest
